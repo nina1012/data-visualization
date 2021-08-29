@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  h1 {
+    font-family: sans-serif;
+    font-weight: 300;
+    text-align: center;
+    color: graytext;
+    font-size: 2rem;
+  }
+  .visualization-content {
+    position: relative;
+    z-index: 10;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  }
+  
+  #tooltip {
+    background-color: white;
+    position: absolute;
+    z-index: 1000;
+  }
+  
+  .bar:hover {
+    fill: black;
+  }
+  
