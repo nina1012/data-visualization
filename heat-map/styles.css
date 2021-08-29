@@ -1,0 +1,11 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  #tooltip {
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 100px;
+  }
+  
