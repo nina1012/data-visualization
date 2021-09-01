@@ -1,0 +1,20 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+.main-svg-container {
+  position: relative;
+  z-index: 10;
+}
+
+#tooltip {
+  position: absolute;
+  padding: 10px;
+  background: rgba(200, 100, 89, 0.95);
+  border: 0;
+  border-radius: 2px;
+  pointer-events: none;
+  z-index: 10000;
+  width: 100px;
+  height: 100px;
+}
